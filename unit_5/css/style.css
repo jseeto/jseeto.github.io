@@ -1,0 +1,78 @@
+.wrapper {
+    background-color: #72a5de;
+}
+
+
+header {
+    background-color: #FFED74;
+    border: 1px black solid;
+    padding: 20px;
+}
+
+#logo {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+
+#title {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+#nav {
+	background-color: #E8C66A;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+#two {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+}
+
+.post1 {
+	background-color: #E89C6C;
+	border: 1px black solid;
+    padding: 20px;
+
+}
+
+.post2 {
+	background-color: #E89C6C;
+	border: 1px black solid;
+    padding: 20px;
+
+}
+
+.post3 {
+	background-color: #E89C6C;
+	border: 1px black solid;
+    padding: 20px;
+
+}
+
+footer {
+	background-color: #FF957E;
+	border: 1px black solid;
+    padding: 20px;
+
+}
+
+#connect {
+	background-color: #FFE2B8;
+	border: 1px black solid;
+    padding: 20px;
+
+}
+
+
+
+
+
+
+
+
