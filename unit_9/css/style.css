@@ -1,0 +1,150 @@
+@import url('https://fonts.googleapis.com/css?family=Open+Sans|Roboto|Yesteryear');
+
+.wrapper {
+    background-color: #fff;
+}
+
+
+.clearfix:after {
+    visibility: hidden;
+    display: block;
+    font-size: 0;
+    content: " ";
+    clear: both;
+    height: 0;
+}
+
+#left { 
+	background-color: #000;
+	border: 1px black solid;
+
+}
+
+.logo {
+	padding: 1em;
+	margin: 1em;
+}
+
+
+.img {
+    background-image: url('../images/Artboard 3.jpg') no-repeat center;
+    position: relative;
+    width: 100%;
+
+}
+
+.article {
+	background-color: rgba(49,54,57,.5);
+	font-family: Helvetica, sans-serif;
+	font-weight: lighter;
+	font-size: 1.1em;
+	line-height: 1em;
+	padding: 1em;
+	width: 100%;
+	float: none;
+
+}
+
+
+
+#right { 
+	background-color: #000;
+	border: 1px black solid;
+	padding: 1em;
+	float: left;
+	width: 25%;
+	display: inline-block;
+	color: #fff;
+
+}
+
+
+h1 {
+	font-family: 'Yesteryear', cursive;
+	font-size: 2em;
+	letter-spacing: 12px;
+	text-align: center;
+	color: #FFCFB4;
+	border: 1px black solid;
+}
+
+nav {
+	font-family: 'open+sans', sans-serif;
+	font-weight: bold;
+	text-transform: uppercase;
+	background-color: #000;
+	border: 1px black solid;
+    padding: 1em;
+    display: inline-block;
+    float: none;
+    text-align: center;
+    text-decoration: none;
+}
+
+
+nav a:hover {
+	background-color: #fff;
+}
+
+
+
+
+
+
+.slogan .connect {
+	font-family: 'open+sans', sans-serif;
+	font-weight: lighter;
+	font-size: 1em;
+	color: #000;
+	background-color: #000;
+	border: 1px black solid;
+/*    float: none;
+    text-align: center;*/
+
+}
+
+footer {
+	font-family: 'open+sans', sans-serif;
+	font-weight: lighter;
+	font-size: 1em;
+	color: #fff;
+	background-color: #000;
+	border: 1px black solid;
+    float: none;
+    text-align: center;
+
+}
+
+#two {
+	background-color: #000;
+	border: 1px black solid;
+    padding: 1em;
+}
+
+
+
+@media only screen and (max-width: 768px) {
+	
+	#right { float: none;
+		width: 100%;
+		position: relative;
+	 }
+
+	 .article {
+	 	font-size: 1em; }
+
+}
+
+@media only screen and (max-width: 400px) {
+	
+	#right { float: none;
+		width: 100%;
+		position: relative;
+	 }
+
+	 .article {
+	 	font-size: 1em; }
+
+}
+
+
